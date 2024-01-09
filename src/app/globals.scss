@@ -1,0 +1,36 @@
+@import '../components/fonts/fonts';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	scroll-behavior: smooth;
+}
+body {
+	@apply text-[16px] text-white font-normal;
+	line-height: normal;
+	font-family: var(--manrope-font), sans-serif;
+	overflow: hidden;
+	background: linear-gradient(
+			0deg,
+			rgba(0, 0, 0, 0.2) 0%,
+			rgba(0, 0, 0, 0.2) 100%
+		),
+		#170d1c;
+}
+h1 {
+	@apply text-[60px] font-normal leading-[75px];
+	font-family: 'Helvetica', sans-serif;
+	letter-spacing: 0.48px;
+}
+h2 {
+	@apply text-[25px] font-normal;
+	font-family: 'Helvetica', sans-serif;
+	line-height: normal;
+}
+h3 {
+	@apply text-[28px] text-[#43F272] font-semibold leading-[75px] uppercase;
+	font-family: 'Rajdhani', sans-serif;
+	line-height: normal;
+}

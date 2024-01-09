@@ -1,0 +1,7 @@
+.contactUs {
+	@apply rounded-[10px] border border-solid border-[#14F195] py-[12px] px-[27px] text-[#43F272] text-[18px] transition-all;
+	background: rgba(67, 242, 114, 0.1);
+	&:hover {
+		background: transparent;
+	}
+}

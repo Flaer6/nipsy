@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'Helvetica';
+	src: url('./Helvetica.eot');
+	src: local('Helvetica'),
+		url('./Helvetica.eot?#iefix') format('embedded-opentype'),
+		url('./Helvetica.woff2') format('woff2'),
+		url('./Helvetica.woff') format('woff'),
+		url('./Helvetica.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Helvetica';
+	src: url('./Helvetica-Light.eot');
+	src: local('Helvetica Light'), local('Helvetica-Light'),
+		url('./Helvetica-Light.eot?#iefix') format('embedded-opentype'),
+		url('./Helvetica-Light.woff2') format('woff2'),
+		url('./Helvetica-Light.woff') format('woff'),
+		url('./Helvetica-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
