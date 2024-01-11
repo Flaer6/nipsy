@@ -12,7 +12,7 @@ interface IProps {
 function Burger({ lang, contactUs, menuItems }: IProps) {
 	const [isToggled, toggle] = useToggle()
 	return (
-		<div>
+		<div className='min-[900px]:hidden'>
 			<button
 				onClick={toggle}
 				className={`${styles.burger} ${isToggled ? styles.burgerClose : ''}`}
