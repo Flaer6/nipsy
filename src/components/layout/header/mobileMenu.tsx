@@ -21,7 +21,7 @@ export default function MobileMenu({
 }: IProps) {
 	return (
 		<nav
-			className={`min-[900px]:hidden ${className} absolute top-0 right-0 ${styles.menuMobile} min-h-screen flex flex-col justify-between transition-transform origin-right`}
+			className={`min-[900px]:hidden ${className} absolute top-0 right-0 ${styles.menuMobile} min-h-[100dvh] flex flex-col justify-between transition-transform origin-right`}
 		>
 			<ul className='flex flex-col items-start gap-[20px] pt-[55px]'>
 				{menuItems.map((item, index) => (
