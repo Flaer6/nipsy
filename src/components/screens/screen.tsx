@@ -7,7 +7,7 @@ interface IScreen {
 
 export default function Screen({ children, className }: IScreen) {
 	return (
-		<section>
+		<section className='relative'>
 			<Container>{children}</Container>
 		</section>
 	)

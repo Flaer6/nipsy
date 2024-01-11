@@ -1,0 +1,25 @@
+{
+	"Header": {
+		"services": {
+			"text": "Services",
+			"link": "#1"
+		},
+		"portfolio": {
+			"text": "Portfolio",
+			"link": "#2"
+		},
+		"bonuses": {
+			"text": "Bonuses",
+			"link": "#3"
+		},
+		"contacts": {
+			"text": "Contacts",
+			"link": "#4"
+		},
+		"language": "Lang",
+		"contactUs": "Contact us"
+	},
+	"Promo": {
+		"title": "Studio <important>creating and promoting</important> mobile applications"
+	}
+}

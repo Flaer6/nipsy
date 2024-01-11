@@ -1,7 +1,36 @@
-.contactUs {
-	@apply rounded-[10px] border border-solid border-[#14F195] py-[12px] px-[27px] text-[#43F272] text-[18px] transition-all;
+.contactUs,
+.languageButton {
+	@apply rounded-[10px] border border-solid border-[#14F195] text-[#43F272] text-[18px] transition-all;
 	background: rgba(67, 242, 114, 0.1);
+}
+.languageButton {
+	@apply py-[5px] px-[20px];
 	&:hover {
 		background: transparent;
+	}
+}
+.contactUs {
+	@apply py-[12px] px-[27px] max-[900px]:block;
+	&:hover {
+		background: transparent;
+		@apply max-[900px]:block;
+	}
+}
+.burger {
+	@apply w-[30px] h-[16px] relative z-10;
+	span {
+		@apply w-full h-[1px] bg-[#43F272] block absolute transition-all;
+		&:nth-child(1) {
+			top: 0;
+		}
+		&:nth-child(2) {
+			top: 7px;
+		}
+		&:nth-child(3) {
+			top: 7px;
+		}
+		&:nth-child(4) {
+			bottom: 0;
+		}
 	}
 }

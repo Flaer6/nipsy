@@ -1,0 +1,25 @@
+{
+	"Header": {
+		"services": {
+			"text": "Услуги",
+			"link": "#1"
+		},
+		"portfolio": {
+			"text": "портфолио",
+			"link": "#2"
+		},
+		"bonuses": {
+			"text": "бонусы",
+			"link": "#3"
+		},
+		"contacts": {
+			"text": "контакты",
+			"link": "#4"
+		},
+		"language": "Язык",
+		"contactUs": "Связаться с нами"
+	},
+	"Promo": {
+		"title": "Студия <important>создания и продвижения</important> мобильных приложений"
+	}
+}

@@ -9,14 +9,16 @@ export const metadata: Metadata = {
 	description: 'Студия создания и продвижения мобильных приложений',
 }
 
-export default function RootLayout({
+export default function LocaleLayout({
 	children,
+	params: { locale },
 }: {
 	children: React.ReactNode
+	params: any
 }) {
 	return (
 		<html
-			lang='ru'
+			lang={locale}
 			className={`${manrope.variable} ${kanit.variable} ${heebo.variable}`}
 		>
 			<body className={manrope.className}>
