@@ -7,7 +7,7 @@ interface IScreen {
 
 export default function Screen({ children, className }: IScreen) {
 	return (
-		<section className='relative'>
+		<section className='relative min-h-screen overflow-hidden'>
 			<Container>{children}</Container>
 		</section>
 	)
